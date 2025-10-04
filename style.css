@@ -66,9 +66,15 @@
         #element{
             color: blueviolet;
         }
+        #puneeth_image{
+            border: none;
+            border-radius: 5px;
+            width: 80%;
+        }
         .secondSection{
             max-width: 80vw;
             margin: auto;
+            height: 80vh;
         }
         .secondSection h1{
             font-size: 2rem;
@@ -77,15 +83,33 @@
             background: white;
             width: 80vw;
             height: 2px;
-            margin: 56px 0;
+            margin: 56px 0;     
             display: flex;
+            gap: 20;
+            
         }
-        .secondSection .vertical{
+        .secondSection  .vertical{
             height: 93px;
-            width: 50px;
+            width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 290px 0 -1px;
         }
-        a img{
-            width: 250px;
+        .image-top{
+            width: 95px;
+            border: 1px dashed wheat;
+            border-radius: 3px;
+            position: relative;
+            top: -60px;
+            left: 2px;
+        }
+        .exp-title{
+            position: relative;
+            top: 56px;
+
+        }.exp-desc{
+            position: relative;
+            top: 67px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
         }

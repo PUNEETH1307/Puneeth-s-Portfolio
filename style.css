@@ -9,7 +9,14 @@
             font-family: "Poppins", sans-serif;
         }
         nav{
-            display: flex;
+             position: fixed; /* Keeps it in place while scrolling */
+             top: 0;          /* Aligns it to the top */
+             left: 0;         /* Aligns it to the left edge */
+             width: 100%; 
+             z-index: 1000;
+        }
+        .navbar{
+             display: flex;
             justify-content: space-around;
             align-items: center;
             height: 90px;
@@ -45,7 +52,7 @@
         .firstSection{
             display: flex;
             justify-content: space-around;
-            margin: 90px 0;
+            margin: 130px 0 110px 0;
         }
         .firstSection > div{
             width: 30%;
@@ -81,7 +88,7 @@
         }
         .secondSection .box{
             background: white;
-            width: 80vw;
+            width: 85vw;
             height: 2px;
             margin: 56px 0;     
             display: flex;
@@ -112,4 +119,23 @@
             color: grey;
             width: 150px;
             font-size: 9px;
+        }
+        footer{
+            background-color: rgb(3, 3, 78);
+            height: 230px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+        }
+        .footer h3{
+            width: 200px;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        footer .link-rights{
+            text-align: center;
+            padding-top: 20px;
         }
